@@ -1,0 +1,76 @@
+/* Estilos generales */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Estilos para la barra de navegación */
+  #navbar-pinterest {
+    background-color: #333;
+    height: 50px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    color: #fff;
+  }
+  
+  .finder {
+    display: flex;
+    align-items: center;
+  }
+  
+  .finder input {
+    width: 200px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    padding: 5px;
+  }
+  
+  #notifications,
+  #message,
+  #profile-img {
+    width: 30px;
+    height: 30px;
+    background-color: #ccc;
+    margin-left: 10px;
+  }
+  
+  /* Estilos para el contenido principal */
+  #content {
+    margin-top: 60px; /* Ajusta el valor para dejar espacio debajo de la barra de navegación */
+    padding: 20px;
+  }
+  
+  .card-image {
+    width: 200px;
+    height: 200px;
+    background-color: #f1f1f1;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* Estilos para el hover de .card-image */
+  .card-image:hover {
+    background-color: #ddd;
+  }
+  
+  /* Estilos para el enlace del icono de Pinterest */
+  #pinterest-icon {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-image: url("ruta/a/tu/imagen.png");
+    background-size: cover;
+    cursor: pointer;
+  }
+  
+  
