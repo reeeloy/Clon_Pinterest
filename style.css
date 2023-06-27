@@ -33,8 +33,8 @@ body {
 }
 
 #btn-pinterest {
-  width: 40px;
-  height: 40px;
+  width: 27px;
+  height: 27px;
   background-image: url("Images/Pinterest_icon.png");
   background-size: cover;
   background-position: center center;
@@ -45,9 +45,9 @@ body {
 #btn-inicio {
   background-color: #333;
   color: #fff;
-  border: none;
+  border-radius: 30px;
   padding: 10px 20px;
-  margin-right: 10px; /* Ajusta el margen derecho del botón "Inicio" */
+  margin-right: 10vh; /* Ajusta el margen derecho del botón "Inicio" */
   float: left; /* Mueve el botón "Inicio" hacia la izquierda */
   border: 1px solid #fff; /* Agrega un borde blanco al botón "Inicio" */
 }
@@ -55,30 +55,30 @@ body {
 #btn-explorar {
   background-color: #333;
   color: #fff;
-  border: none;
+  border-radius: 30px;
   padding: 10px 20px;
-  margin-right: 150vh; /* Ajusta el margen derecho del botón "Explorar" */
+  margin-right: 162vh; /* Ajusta el margen derecho del botón "Explorar" */
   border: 1px solid #fff; /* Agrega un borde blanco al botón "Explorar" */
 }
 
 #btn-crear {
   background-color: #333;
   color: #fff;
-  border: none;
+  border-radius: 30px;
   right: 200px;
   position: absolute;
   border: 1px solid #fff;
   padding: 10px 20px;
-  margin-right: 144vh;
-  
+  margin-right: 155vh;
 }
 
 .finder input {
-  width: 110vh;
+  width: 130vh;
   height: 30px;
   border: none;
   border-radius: 17px;
   padding: 5px;
+  margin-left: -14vh;
 }
 
 /* Estilos para el contenido principal */
@@ -122,20 +122,42 @@ header {
 
 #image1 {
   background-image: url("Images/Icon_campana.png");
+  margin-left: -25vh;
 }
 
 #image2 {
   background-image: url("Images/message_icon.png");
+  margin-left: 10px;
 }
 
 #image3 {
   background-image: url("Images/icon-usuario.png");
+  margin-left: 20px;
 }
 
 #image4 {
   background-image: url("Images/Flecha-down.png");
+  margin-left: 20px;
 }
 
-.images-right {
+#content {
+  margin-top: 20px; /* Ajusta el valor según sea necesario */
+  padding: 20px;
+}
+
+.card-image {
+  width: 200px;
+  height: 200px;
+  background-color: #f1f1f1;
+  margin-bottom: 20px;
   display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.card-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
