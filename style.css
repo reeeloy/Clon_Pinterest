@@ -69,7 +69,7 @@ body {
   position: absolute;
   border: 1px solid #fff;
   padding: 10px 20px;
-  margin-right: 144vh
+  margin-right: 144vh;
   
 }
 
@@ -109,4 +109,33 @@ header {
   justify-content: space-between;
   padding: 10px 20px;
   background-color: #f9f9f9;
+}
+
+.image {
+  width: 40px;
+  height: 40px;
+  background-size: cover;
+  background-position: center center;
+  border-radius: 80%;
+  cursor: pointer;
+}
+
+#image1 {
+  background-image: url("Images/Icon_campana.png");
+}
+
+#image2 {
+  background-image: url("Images/message_icon.png");
+}
+
+#image3 {
+  background-image: url("Images/icon-usuario.png");
+}
+
+#image4 {
+  background-image: url("Images/Flecha-down.png");
+}
+
+.images-right {
+  display: flex;
 }
