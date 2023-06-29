@@ -143,21 +143,25 @@ header {
 #content {
   margin-top: 20px; /* Ajusta el valor según sea necesario */
   padding: 20px;
+  column-count: 7; /* Ajusta el número de columnas según tus necesidades */
+  column-gap: 100px; /* Ajusta el espacio entre las columnas según tus necesidades */
 }
 
 .card-image {
-  width: 200px;
-  height: 200px;
+  width: 280px;
+  height: 490px;
   background-color: #f1f1f1;
   margin-bottom: 20px;
   display: flex;
   align-items: center;
-  justify-content: center;
-  overflow: hidden;
+  justify-content: stretch;
+  flex-direction: column;
+  
 }
 
 .card-image img {
-  width: 100%;
-  height: 100%;
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 10%;
   object-fit: cover;
 }
