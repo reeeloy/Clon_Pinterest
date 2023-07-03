@@ -81,12 +81,6 @@ body {
   margin-left: -14vh;
 }
 
-/* Estilos para el contenido principal */
-#content {
-  margin-top: 140px; /* Ajusta el valor para dejar espacio debajo de la barra de navegación */
-  padding: 20px;
-}
-
 .card-image {
   width: 200px;
   height: 200px;
@@ -145,6 +139,8 @@ header {
   padding: 20px;
   column-count: 7; /* Ajusta el número de columnas según tus necesidades */
   column-gap: 100px; /* Ajusta el espacio entre las columnas según tus necesidades */
+  margin-left: -5px; /* Margen izquierdo para indicar el inicio del body */
+  margin-right: 120px; /* Margen derecho para indicar el final del body */
 }
 
 .card-image {
@@ -160,7 +156,7 @@ header {
 }
 
 .card-image img {
-  max-width: 100%;
+  max-width: 90%;
   max-height: 100%;
   border-radius: 10%;
   object-fit: cover;
