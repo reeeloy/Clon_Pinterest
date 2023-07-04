@@ -139,14 +139,14 @@ header {
   padding: 20px;
   column-count: 7; /* Ajusta el número de columnas según tus necesidades */
   column-gap: 100px; /* Ajusta el espacio entre las columnas según tus necesidades */
-  margin-left: -5px; /* Margen izquierdo para indicar el inicio del body */
+  margin-left: -px; /* Margen izquierdo para indicar el inicio del body */
   margin-right: 120px; /* Margen derecho para indicar el final del body */
 }
 
 .card-image {
   width: 280px;
   height: 490px;
-  background-color: #f1f1f1;
+  background-color: white;
   margin-bottom: 20px;
   display: flex;
   align-items: center;
@@ -160,4 +160,100 @@ header {
   max-height: 100%;
   border-radius: 10%;
   object-fit: cover;
+}
+
+#imagen3 {
+  margin-top: -12vh;
+}
+
+#imagen6 {
+  margin-top: -3vh;
+}
+
+#imagen7 {
+  margin-top: -10vh;
+}
+
+#imagen8 {
+  margin-top: -23vh;
+}
+
+#imagen9 {
+  margin-top: -24vh;
+}
+
+#imagen10 {
+  margin-top: -7vh;
+}
+
+#imagen11 {
+  margin-top: -15vh;
+}
+
+#imagen12 {
+  margin-top: -4vh;
+}
+
+#imagen13 {
+  margin-top: -24vh;
+}
+
+#imagen14 {
+  margin-top: -24vh;
+}
+
+#imagen16 {
+  margin-top: -4vh;
+}
+
+#imagen17 {
+  margin-top: -10vh;
+}
+
+#imagen18 {
+  margin-top: -18vh;
+}
+
+#imagen19 {
+  margin-top: -18vh;
+}
+
+#imagen20 {
+  margin-top: -17vh;
+}
+
+#imagen21 {
+  margin-top: -18vh;
+}
+
+#imagen22 {
+  margin-top: -10vh;
+}
+
+#imagen23 {
+  margin-top: -4vh;
+}
+
+#imagen25 {
+  margin-top: -11vh;
+}
+
+#imagen26 {
+  margin-top: -11vh;
+}
+
+#imagen27 {
+  margin-top: -6vh;
+}
+
+#imagen29 {
+  margin-top: -3vh;
+}
+
+#imagen30 {
+  margin-top: -4vh;
+}
+
+#imagen31 {
+  margin-top: -31vh;
 }
