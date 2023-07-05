@@ -1,15 +1,19 @@
-/* Estilos generales */
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500&family=Roboto:wght@900&display=swap');
+
 body {
   margin: 0;
   padding: 0;
-  font-family: Arial, sans-serif;
+  font-family: 'EB Garamond', serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 /* Header */
 #navbar-pinterest {
-  background-color: #333;
-  height: 80px;
+  background-color: white;
+  height: 90px;
   position: fixed;
+  font-family: 'EB Garamond', serif;
+  font-family: 'Roboto', sans-serif;
   top: 0;
   left: 0;
   right: 0;
@@ -74,9 +78,10 @@ body {
 
 .finder input {
   width: 130vh;
-  height: 30px;
+  height: 40px;
   border: none;
-  border-radius: 17px;
+  background-color: #E1E1E1;
+  border-radius: 30px;
   padding: 5px;
   margin-left: -14vh;
 }
@@ -255,5 +260,5 @@ header {
 }
 
 #imagen31 {
-  margin-top: -31vh;
+  margin-top: -5vh;
 }
