@@ -1,10 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500&family=Roboto:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500&family=Roboto:wght@500&display=swap');
+
 
 body {
   margin: 0;
   padding: 0;
-  font-family: 'EB Garamond', serif;
-  font-family: 'Roboto', sans-serif;
 }
 
 /* Header */
@@ -12,8 +11,6 @@ body {
   background-color: white;
   height: 90px;
   position: fixed;
-  font-family: 'EB Garamond', serif;
-  font-family: 'Roboto', sans-serif;
   top: 0;
   left: 0;
   right: 0;
@@ -33,12 +30,15 @@ body {
 #btn-inicio,
 #btn-explorar,
 #btn-crear {
-  flex: none; /* Evita que los botones se ajusten automáticamente */
+  flex: none; 
+  font-family: 'Roboto', sans-serif;
+  font-size: 17px;
 }
 
 #btn-pinterest {
   width: 27px;
   height: 27px;
+  border: none;
   background-image: url("Images/Pinterest_icon.png");
   background-size: cover;
   background-position: center center;
@@ -51,9 +51,9 @@ body {
   color: #fff;
   border-radius: 30px;
   padding: 10px 20px;
+  height: 55px;
   margin-right: 10vh; /* Ajusta el margen derecho del botón "Inicio" */
   float: left; /* Mueve el botón "Inicio" hacia la izquierda */
-  border: 1px solid #fff; /* Agrega un borde blanco al botón "Inicio" */
 }
 
 #btn-explorar {
@@ -61,27 +61,30 @@ body {
   color: #fff;
   border-radius: 30px;
   padding: 10px 20px;
-  margin-right: 162vh; /* Ajusta el margen derecho del botón "Explorar" */
-  border: 1px solid #fff; /* Agrega un borde blanco al botón "Explorar" */
+  height: 55px;
+  margin-right: 161vh; /* Ajusta el margen derecho del botón "Explorar" */
 }
 
 #btn-crear {
   background-color: #333;
   color: #fff;
   border-radius: 30px;
-  right: 200px;
+  right: 166px;
   position: absolute;
-  border: 1px solid #fff;
+  height: 55px;
   padding: 10px 20px;
   margin-right: 155vh;
 }
 
 .finder input {
-  width: 130vh;
+  width: 135vh;
   height: 40px;
   border: none;
   background-color: #E1E1E1;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
   border-radius: 30px;
+  outline: none;
   padding: 5px;
   margin-left: -14vh;
 }
@@ -121,7 +124,7 @@ header {
 
 #image1 {
   background-image: url("Images/Icon_campana.png");
-  margin-left: -25vh;
+  margin-left: -20vh;
 }
 
 #image2 {
