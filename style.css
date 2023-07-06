@@ -52,33 +52,39 @@ body {
   border-radius: 30px;
   padding: 10px 20px;
   height: 55px;
+  cursor: pointer;
+  border: none;
   margin-right: 10vh; /* Ajusta el margen derecho del botón "Inicio" */
   float: left; /* Mueve el botón "Inicio" hacia la izquierda */
 }
 
 #btn-explorar {
-  background-color: #333;
-  color: #fff;
+  background-color: white;
+  color: black;
   border-radius: 30px;
   padding: 10px 20px;
   height: 55px;
-  margin-right: 161vh; /* Ajusta el margen derecho del botón "Explorar" */
+  border: none;
+  cursor: pointer;
+  margin-right: 153vh;
 }
 
 #btn-crear {
-  background-color: #333;
-  color: #fff;
+  background-color: white;
+  color: black;
   border-radius: 30px;
-  right: 166px;
+  right: 154px;
   position: absolute;
   height: 55px;
+  border: none;
+  cursor: pointer;
   padding: 10px 20px;
   margin-right: 155vh;
 }
 
 .finder input {
-  width: 135vh;
-  height: 40px;
+  width: 134vh;
+  height: 44px;
   border: none;
   background-color: #E1E1E1;
   font-family: 'Roboto', sans-serif;
@@ -89,10 +95,23 @@ body {
   margin-left: -14vh;
 }
 
+.finder input {
+  padding-left: 40px;
+}
+
+.search-icon {
+  position: absolute;
+  top: 50%;
+  left: -13vh; /* Ajusta la posición según sea necesario */
+  transform: translateY(-50%);
+  width: 20px;
+  height: 20px;
+}
+
 .card-image {
   width: 200px;
   height: 200px;
-  background-color: #f1f1f1;
+  background-color: white;
   margin-bottom: 20px;
   display: flex;
   align-items: center;
@@ -101,7 +120,7 @@ body {
 
 /* Estilos para el hover de .card-image */
 .card-image:hover {
-  background-color: #ddd;
+  background-color: white;
 }
 
 /* Estilos para el encabezado */
@@ -124,22 +143,26 @@ header {
 
 #image1 {
   background-image: url("Images/Icon_campana.png");
-  margin-left: -20vh;
+  margin-left: -14vh;
+  border: none;
 }
 
 #image2 {
   background-image: url("Images/message_icon.png");
   margin-left: 10px;
+  border: none;
 }
 
 #image3 {
   background-image: url("Images/icon-usuario.png");
-  margin-left: 20px;
+  margin-left: 2px;
+  border: none;
 }
 
 #image4 {
   background-image: url("Images/Flecha-down.png");
-  margin-left: 20px;
+  margin-left: 5px;
+  border: none;
 }
 
 #content {
