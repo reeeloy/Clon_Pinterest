@@ -54,7 +54,7 @@ body {
   height: 55px;
   cursor: pointer;
   border: none;
-  margin-right: 10vh; /* Ajusta el margen derecho del botón "Inicio" */
+  margin-right: 8vh; /* Ajusta el margen derecho del botón "Inicio" */
   float: left; /* Mueve el botón "Inicio" hacia la izquierda */
 }
 
@@ -66,7 +66,7 @@ body {
   height: 55px;
   border: none;
   cursor: pointer;
-  margin-right: 153vh;
+  margin-right: 160vh;
 }
 
 #btn-crear {
@@ -133,17 +133,19 @@ header {
 }
 
 .image {
-  width: 40px;
-  height: 40px;
+  width: 35px;
+  height: 35px;
+  background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
   border-radius: 80%;
   cursor: pointer;
 }
 
+
 #image1 {
   background-image: url("Images/Icon_campana.png");
-  margin-left: -14vh;
+  margin-left: -18vh;
   border: none;
 }
 
@@ -155,14 +157,18 @@ header {
 
 #image3 {
   background-image: url("Images/icon-usuario.png");
-  margin-left: 2px;
+  margin-left: 10px;
   border: none;
 }
 
 #image4 {
   background-image: url("Images/Flecha-down.png");
-  margin-left: 5px;
+  margin-left: 10px;
   border: none;
+  width: 15px;
+  height: 15px;
+  position: relative;
+  top: -9px;
 }
 
 #content {
@@ -287,4 +293,16 @@ header {
 
 #imagen31 {
   margin-top: -5vh;
+}
+
+@media screen and (max-width: 768px) {
+
+  body {
+  font-size: 20px;
+  }
+
+  .image {
+    width: 50px;
+    height: 50px;
+  }
 }
